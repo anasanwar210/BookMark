@@ -1,0 +1,53 @@
+.parent h1{
+    font-size: 2rem;
+}
+
+.parent .logo{
+    position: relative;
+}
+
+.parent .logo::after{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: #6c757d;
+    height: 1px;
+    width: 100%;
+}
+
+.parent-2 .child{
+    background-color: #eee;
+}
+
+.parent-2{
+    position: relative;
+}
+
+.parent-2 ::after{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: #6c757d;
+    height: 1px;
+    width: 100%;
+}
+
+.parent-2 label{
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.bookmarker{
+    background: linear-gradient(#eee , #fff);
+}
+
+.bookmarker h3{
+    word-wrap: break-word;
+}
+
+#validMsgUrl,#validMsgName,#MsgName,#MsgUrl{
+    border-radius: 5px;
+}
