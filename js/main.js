@@ -10,7 +10,7 @@ var markName  = document.getElementById("siteName"),
     }
 
   function addURL(){
-    var nameValid = /^[A-Z][a-z|0-9]{4,35}$/;
+    var nameValid = /^[A-Za-z]{4,35}$/;
     var urlValid  = /^(https:\/\/|http:\/\/)/;
 
     if(markName.value=="" && markURL.value==""){

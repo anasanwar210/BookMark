@@ -1,85 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Java Script</title>
-</head>
-<body>
-
-  <div class="parent w-75 m-auto">
-    <div class="logo py-3 px-4 ">
-      <h1 class="text-black-50">Bookmarker</h1>
-    </div>
-
-    <div class="parent-2 text-center py-4">
-
-      <div class="child py-3 mx-4">
-        <div class="title pb-3">
-          <h2>Bookmark your favorite sites</h2>
-        </div>
-
-    
-        <div class="pb-4">
-          <label>Site Name</label>
-          <input type="text" id="siteName" class="form-control m-auto w-75" placeholder="Bookmark Name">
-          <div id="validMsgName" class="bg-danger m-auto w-75 text-white"></div>
-          <div id="MsgName" class="bg-danger m-auto w-75 text-white"></div>
-        </div>
-    
-        <div class="pb-4">
-          <label>Site URL</label>
-          <input type="text" id="siteURL" class="form-control m-auto w-75" placeholder="Wepsite URL">
-          <div id="validMsgUrl" class="bg-danger m-auto w-75 text-white"></div>
-          <div id="MsgUrl" class="bg-danger m-auto w-75 text-white"></div>
-        </div>
-    
-        <div id="butn">
-          <button onclick="addURL()" class="btn btn-outline-primary">Submit</button>
-        </div>
-      </div>
-      
-      <div id="showURLS">
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Java Script</title>
+  </head>
+  <body>
+    <div class="parent w-75 m-auto">
+      <div class="logo py-3 px-4">
+        <h1 class="text-black-50">Bookmarker</h1>
       </div>
 
+      <div class="parent-2 text-center py-4">
+        <div class="child py-3 mx-4">
+          <div class="title pb-3">
+            <h2>Bookmark your favorite sites</h2>
+          </div>
+
+          <div class="pb-4">
+            <label>Site Name</label>
+            <input
+              type="text"
+              id="siteName"
+              class="form-control m-auto w-75"
+              placeholder="Bookmark Name"
+            />
+            <div
+              id="validMsgName"
+              class="bg-danger m-auto w-75 text-white"
+            ></div>
+            <div id="MsgName" class="bg-danger m-auto w-75 text-white"></div>
+          </div>
+
+          <div class="pb-4">
+            <label>Site URL</label>
+            <input
+              type="text"
+              id="siteURL"
+              class="form-control m-auto w-75"
+              placeholder="Wepsite URL"
+            />
+            <div
+              id="validMsgUrl"
+              class="bg-danger m-auto w-75 text-white"
+            ></div>
+            <div id="MsgUrl" class="bg-danger m-auto w-75 text-white"></div>
+          </div>
+
+          <div id="butn">
+            <button onclick="addURL()" class="btn btn-outline-primary">
+              Submit
+            </button>
+          </div>
+        </div>
+
+        <div id="showURLS"></div>
+      </div>
+
+      <div class="copyright px-4">
+        <p class="text-black-50 py-3 font-weight-bold">
+          &copy; 2019 Bookmarker Inc.
+        </p>
+      </div>
     </div>
 
-    <div class="copyright px-4">
-      <p class="text-black-50 py-3 font-weight-bold">&copy; 2019 Bookmarker Inc.</p>
-    </div>
-
-
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="js/jquery-3.5.1.slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/all.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
